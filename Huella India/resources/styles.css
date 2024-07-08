@@ -1,0 +1,136 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Lore', sans-serif;
+    text-align: center; 
+    background-color: #FFFFE0;  
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #FF4500;
+}
+
+#logo{
+    width: auto;
+    height: 100%;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bolder;
+    color: #FF4500;
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+}
+
+li{
+    font-size: 1.25em;
+    margin: 0 5px;
+
+}
+
+#inicio{
+    padding-top: 10px;
+}
+
+h2{
+ font-size: 1.75em;
+ color:#FF4500;    
+}
+
+#stock{
+    max-width: 1000px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.producto {
+   width: 300px;
+   text-align: center;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+   padding: 10px;
+}
+
+.producto:hover{
+    color: #FF8C00;
+    cursor: pointer;
+}
+
+figure img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    object-position: center;
+}
+
+figcaption{
+font-size: 1.25em;
+padding-top: 5px;
+}
+
+#equipo{
+    max-width: 1000px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.miembros{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.miembro{
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+}
+
+.miembro img{
+    width: 100%;
+    height: fit-content;
+}
+
+#contacto h2{
+    text-align: left;
+}
+.metodos{
+    font-size: 0.95em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+
+.copyright{
+    background-color: #FF8C00;
+    text-align: end;
+    font-size: 1em;
+    color: black;
+    font-weight: 800;
+    width: 100%;
+    margin-top: 100px;
+    height: 50px;
+}
